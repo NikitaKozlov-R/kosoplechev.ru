@@ -12,27 +12,24 @@ module.exports = {
     fetch: true,
   },
 
-  plugins: ["prettier"],
+  plugins: ['prettier'],
 
   rules: {
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
         singleQuote: true,
         semi: false,
         printWidth: 120,
-        endOfLine: "auto",
-        htmlWhitespaceSensitivity: "ignore",
+        endOfLine: 'auto',
+        htmlWhitespaceSensitivity: 'ignore',
       },
     ],
-    "no-unused-vars": 0,
-    "trailing-comma": 0,
-    "vue/valid-v-slot": 0,
+    'no-unused-vars': 0,
+    'trailing-comma': 0,
+    'vue/valid-v-slot': 0,
+    'vue/no-multiple-template-root': 0,
   },
 
-  extends: [
-    "plugin:prettier/recommended",
-    "plugin:vue/recommended",
-    "@vue/prettier",
-  ],
-};
+  extends: ['plugin:prettier/recommended', 'plugin:vue/recommended', '@vue/prettier'],
+}

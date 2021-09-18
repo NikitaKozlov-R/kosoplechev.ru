@@ -1,9 +1,25 @@
 <template>
   <div class="ks-welcome">
-    <div class="ks-welcom__text">
-      <ks-welcome-text-item />
-      <ks-welcome-text-item />
-      <ks-welcome-text-item />
+    <div class="ks-welcome__text">
+      <ks-welcome-text-item title="ЖИЗНЕННАЯ ПОЗИЦИЯ">
+        <p class="ks-welcome__text-description">
+          Если бы мне дали абсолютную власть,
+          <br />
+          я бы привнёс в этот мир честности
+        </p>
+      </ks-welcome-text-item>
+      <ks-welcome-text-item title="КОНТАКТЫ">
+        <p class="ks-welcome__text-description">
+          Москва, Россия
+          <br />
+          <a class="ks-welcome__text-description--mail" href="mailto:kosoplechev@mail.ru">kosoplechev@mail.ru</a>
+          <br />
+          +7 (926) 587-42-27
+        </p>
+      </ks-welcome-text-item>
+      <ks-welcome-text-item title="ДОЛЖНОСТЬ">
+        <p class="ks-welcome__text-description">Директор Колледжа РГСУ</p>
+      </ks-welcome-text-item>
     </div>
     <div class="ks-welcome__photo">
       <div class="ks-welcome__frame">
@@ -33,22 +49,40 @@
         </div>
       </div>
     </div>
-    <div class="ks-welcom__numbers">
-      <ks-welcome-numbers-item />
-      <ks-welcome-numbers-item />
-      <ks-welcome-numbers-item />
+    <div class="ks-welcome__numbers">
+      <ks-welcome-numbers-item title="ЛЕТ ОПЫТА">
+        <p class="ks-welcome__text-number">>15</p>
+      </ks-welcome-numbers-item>
+      <ks-welcome-numbers-item title="ПРОДУКТИВНОСТЬ">
+        <p class="ks-welcome__text-number">100%</p>
+      </ks-welcome-numbers-item>
+      <ks-welcome-numbers-item title="НАВЫКИ">
+        <p class="ks-welcome__text-number">30+</p>
+      </ks-welcome-numbers-item>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import KsWelcomeTextItem from '@/components/ks-welcome-components/ks-welcome-text-item'
+import KsWelcomeNumbersItem from '@/components/ks-welcome-components/ks-welcome-numbers-item'
+
+export default {
+  components: {
+    KsWelcomeTextItem,
+    KsWelcomeNumbersItem,
+  },
+  data() {
+    return {}
+  },
+}
 </script>
 
 <style>
 .ks-welcome {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
   padding: 8rem 0;
 }
 .ks-welcome__photo {
@@ -102,5 +136,34 @@ export default {}
   background: unset;
   position: relative;
   user-select: none;
+}
+.ks-welcome__text {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ks-welcome__text-description {
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+.ks-welcome__text-description--mail {
+  font-size: 3rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+.ks-welcome__text-description--mail:hover {
+  color: var(--color-primary);
+}
+.ks-welcome__numbers {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ks-welcome__text-number {
+  font-size: 9rem;
+  margin-top: 4rem;
 }
 </style>

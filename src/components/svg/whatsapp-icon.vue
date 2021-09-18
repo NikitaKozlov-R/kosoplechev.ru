@@ -29,10 +29,10 @@ export default {}
   fill: black;
 }
 .ks-socials__icon--svg {
-  transition: 0.6s ease;
+  transition: 0.4s ease;
 }
 .ks-socials__icon--svg:hover {
   fill: var(--color-primary);
-  transform: translateY(-1rem);
+  transform: translateY(-4px);
 }
 </style>

@@ -66,7 +66,7 @@ export default {
   text-decoration: none;
   color: #000;
   margin: 0 8rem 0 0;
-  transition: all 0.6s ease;
+  transition: all 0.4s ease;
   position: relative;
   display: inline-block;
   outline: none;
@@ -81,7 +81,7 @@ export default {
   background: var(--color-primary);
   border-radius: 50%;
   opacity: 0;
-  transition: 0.6s ease;
+  transition: 0.4s ease;
 }
 .ks-menu__item:hover::after {
   opacity: 1;
