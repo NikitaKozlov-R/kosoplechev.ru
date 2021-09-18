@@ -66,7 +66,7 @@ export default {
   text-decoration: none;
   color: #000;
   margin: 0 8rem 0 0;
-  transition: all 0.4s ease;
+  transition: all 0.6s ease;
   position: relative;
   display: inline-block;
   outline: none;
@@ -75,16 +75,21 @@ export default {
   content: '';
   position: absolute;
   left: 45%;
-  top: 4rem;
+  top: 1rem;
   width: 6px;
   height: 6px;
   background: var(--color-primary);
   border-radius: 50%;
   opacity: 0;
-  transition: 0.4s ease;
+  transition: 0.6s ease;
 }
 .ks-menu__item:hover::after {
   opacity: 1;
+  transform: translateY(3rem);
+}
+.ks-menu__item.active:hover::after {
+  opacity: 1;
+  transform: translateY(0);
 }
 .ks-menu__item.active {
   color: var(--color-primary);

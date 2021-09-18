@@ -26,6 +26,8 @@
   margin: 0;
   padding: 0;
   background-color: var(--general-background);
+  font-family: var(--lora);
+  font-weight: var(--lora-regular);
 }
 
 html {
@@ -33,6 +35,19 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
   font-family: var(--lora);
   font-weight: var(--lora-regular);
+}
+
+::-webkit-scrollbar {
+  background: var(--general-background);
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+::selection {
+  background: var(--color-primary);
 }
 
 p {

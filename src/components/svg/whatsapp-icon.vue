@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <a href="#">
     <svg class="ks-socials__icon--svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0)">
         <path
@@ -14,7 +14,7 @@
         </clipPath>
       </defs>
     </svg>
-  </section>
+  </a>
 </template>
 
 <script>
@@ -29,7 +29,7 @@ export default {}
   fill: black;
 }
 .ks-socials__icon--svg {
-  transition: 0.4s ease;
+  transition: 0.6s ease;
 }
 .ks-socials__icon--svg:hover {
   fill: var(--color-primary);
