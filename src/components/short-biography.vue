@@ -22,18 +22,22 @@
         />
       </div>
     </div>
-    <div class="bio-column"></div>
+    <div class="bio-column">
+      <ks-short-biography-photo />
+    </div>
   </div>
 </template>
 
 <script>
 import KsBlockTitle from '@/components/helpers-components/ks-block-title.vue'
 import KsShortBiographyText from '@/components/ks-short-biography-components/ks-short-biography-text.vue'
+import KsShortBiographyPhoto from './ks-short-biography-components/ks-short-biography-photo.vue'
 
 export default {
   components: {
     KsBlockTitle,
     KsShortBiographyText,
+    KsShortBiographyPhoto,
   },
 }
 </script>
@@ -48,6 +52,7 @@ export default {
   display: flex;
   flex-direction: row;
   gap: 4rem;
+  align-items: center;
 }
 
 /* СТИЛИ БЛОКА ПОДПИСИ И ФОТОГРАФИИ */
