@@ -17,7 +17,7 @@ export default {}
   justify-content: center;
   border: 1px solid #000;
   border-radius: 250px;
-  width: 100%;
+  width: 488px;
 }
 .ks-bio__background {
   background: var(--photo-background);
