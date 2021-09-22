@@ -21,7 +21,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 8rem 0;
+  padding: 10rem 0;
 }
 .ks-block__title-text {
   font-size: 7rem;

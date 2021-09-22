@@ -43,18 +43,6 @@ export default {
 </script>
 
 <style>
-/* СТИЛИ БЛОКА ОГРАНИЧИВАЮЩЕГО ШИРИНУ */
-
-.ks-small-block {
-  width: 100%;
-  padding: 0 160px;
-  margin-bottom: 8rem;
-  display: flex;
-  flex-direction: row;
-  gap: 4rem;
-  align-items: center;
-}
-
 /* СТИЛИ БЛОКА ПОДПИСИ И ФОТОГРАФИИ */
 
 /* Стили для кавычки */

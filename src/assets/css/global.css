@@ -5,6 +5,7 @@
   --photo-background: #e2e7e3;
   --montserrat: 'Montserrat', sans-serif;
   --montserrat-extra-light: 200;
+  --montserrat-extra-regular: 400;
   --montserrat-semi-bold: 600;
   --lora: 'Lora', serif;
   --lora-regular: 400;
@@ -45,5 +46,15 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.ks-small-block {
+  width: 100%;
+  padding: 0 160px;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
   align-items: center;
 }

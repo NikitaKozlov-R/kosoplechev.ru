@@ -35,8 +35,8 @@
         <p class="ks-experience__col-position">Директор Колледжа РГСУ</p>
         <p class="ks-experience__col-position">Руководитель подразделения, преподаватель</p>
         <p class="ks-experience__col-position">
-          Региональный эксперт союза Worldskills по компетенции "Администрирование отеля", эксперт финала I ежвузовского
-          чемпионата, главный эксперт отборочного этапа РГСУ
+          Региональный эксперт союза Worldskills по компетенции "Администрирование отеля", эксперт финала I
+          межвузовского чемпионата, главный эксперт отборочного этапа РГСУ
         </p>
       </div>
       <div class="ks-experience__col-item">
@@ -87,5 +87,9 @@ export default {
 }
 .ks-experience__col-position {
   margin-bottom: 2rem;
+  font-family: var(--montserrat);
+  font-weight: var(--montserrat-extra-regular);
+  color: #000;
+  line-height: 140%;
 }
 </style>
