@@ -46,7 +46,7 @@ export default {
   font-family: var(--montserrat);
   font-weight: var(--montserrat-extra-light);
   color: var(--color-secondary);
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   width: 100%;
 }
 .ks-skills__container {
