@@ -108,6 +108,7 @@ export default {
   bottom: 0;
   right: -168px;
   z-index: -1;
+  mix-blend-mode: exclusion;
 }
 .ks-welcome__bubble--img {
   background: unset;

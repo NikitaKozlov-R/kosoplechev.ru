@@ -1,0 +1,42 @@
+<template>
+  <div class="ks-hobbie__icons-item">
+    <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M106.667 117.333H21.3335V106.667L37.3335 98.6667H90.6668L106.667 106.667V117.333Z"
+        fill="#D4CECC"
+        stroke="#B3ADAB"
+        stroke-width="4"
+        stroke-miterlimit="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M37.3335 50.6667H90.6668"
+        stroke="#B3ADAB"
+        stroke-width="4"
+        stroke-miterlimit="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path d="M73.9733 50.6667L88 98.6667H40L54.0267 50.6667" fill="#D4CECC" />
+      <path
+        d="M73.9733 50.6667L88 98.6667H40L54.0267 50.6667"
+        stroke="#B3ADAB"
+        stroke-width="4"
+        stroke-miterlimit="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M64.0001 10.6667C59.2699 10.665 54.6732 12.2353 50.9329 15.1309C47.1925 18.0265 44.5205 22.0831 43.3371 26.6629C42.1537 31.2426 42.526 36.0858 44.3953 40.431C46.2647 44.7761 49.5252 48.3768 53.6641 50.6667H74.3361C78.475 48.3768 81.7355 44.7761 83.6048 40.431C85.4742 36.0858 85.8464 31.2426 84.663 26.6629C83.4796 22.0831 80.8077 18.0265 77.0673 15.1309C73.3269 12.2353 68.7303 10.665 64.0001 10.6667Z"
+        fill="#D4CECC"
+        stroke="#B3ADAB"
+        stroke-width="4"
+      />
+    </svg>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>

@@ -3,11 +3,16 @@
   <div class="ks-hobbie">
     <div class="ks-hobbie__container">
       <div class="ks-hobbie__icons">
-        <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/giraffe.png" alt="Жирафы" />
+        <!-- <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/giraffe.png" alt="Жирафы" />
         <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/chess.png" alt="Шахматы" />
         <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/video-game.png" alt="Видео-игры" />
         <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/volleyball.png" alt="Волейбол" />
-        <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/guitar.png" alt="Гитара" />
+        <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/guitar.png" alt="Гитара" /> -->
+        <ks-giraffe />
+        <ks-chess />
+        <ks-video-games />
+        <ks-valleyball />
+        <ks-guitar />
       </div>
       <div class="ks-hobbie__titles">
         <p class="ks-hobbie__titles-item">Жирафы</p>
@@ -22,10 +27,20 @@
 
 <script>
 import KsBlockTitle from '@/components/helpers-components/ks-block-title.vue'
+import KsGiraffe from '@/components/svg/giraffe.vue'
+import KsChess from '@/components/svg/chess.vue'
+import KsVideoGames from '@/components/svg/video-games.vue'
+import KsValleyball from '@/components/svg/volleyball.vue'
+import KsGuitar from '@/components/svg/guitar.vue'
 
 export default {
   components: {
     KsBlockTitle,
+    KsGiraffe,
+    KsChess,
+    KsVideoGames,
+    KsValleyball,
+    KsGuitar,
   },
 }
 </script>
@@ -48,7 +63,6 @@ export default {
 }
 .ks-hobbie__icons {
   width: 100%;
-  mix-blend-mode: luminosity;
   background-color: #eeebe9;
   display: flex;
   flex-direction: row;
@@ -58,12 +72,21 @@ export default {
 .ks-hobbie__icons-item {
   background-color: #eeebe9;
 }
+.ks-hobbie__icons-item svg {
+  background-color: unset;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.ks-hobbie__icons-item svg:hover {
+  transform: rotate(8deg) scale(1.4);
+}
 .ks-hobbie__titles {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: #eeebe9;
   width: 100%;
+  margin-top: 16px;
 }
 .ks-hobbie__titles-item {
   background-color: #eeebe9;

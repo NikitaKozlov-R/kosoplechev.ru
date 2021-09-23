@@ -1,5 +1,5 @@
 <template>
-  <span></span>
+  <div class="ks-contacts"></div>
 </template>
 
 <script>
