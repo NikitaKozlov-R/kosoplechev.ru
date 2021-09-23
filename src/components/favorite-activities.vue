@@ -3,11 +3,6 @@
   <div class="ks-hobbie">
     <div class="ks-hobbie__container">
       <div class="ks-hobbie__icons">
-        <!-- <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/giraffe.png" alt="Жирафы" />
-        <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/chess.png" alt="Шахматы" />
-        <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/video-game.png" alt="Видео-игры" />
-        <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/volleyball.png" alt="Волейбол" />
-        <img class="ks-hobbie__icons-item" src="@/assets/img/graphics/guitar.png" alt="Гитара" /> -->
         <ks-giraffe />
         <ks-chess />
         <ks-video-games />
