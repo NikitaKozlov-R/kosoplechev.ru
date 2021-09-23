@@ -111,7 +111,7 @@ export default {
 .ks-socials {
   display: flex;
   align-items: center;
-  width: 60rem;
+  width: 480px;
   justify-content: flex-end;
 }
 .ks-socials__icon {
