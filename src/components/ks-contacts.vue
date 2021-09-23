@@ -1,9 +1,104 @@
 <template>
-  <div class="ks-contacts"></div>
+  <div class="ks-contacts">
+    <div class="ks-contacts__wrap">
+      <div class="ks-contacts__waves">
+        <img class="ks-contacts__waves-img" src="@/assets/img/graphics/waves.png" alt="Лекала волн" draggable="false" />
+      </div>
+      <div class="ks-contacts__frame">
+        <button class="ks-contacts__frame-btn">
+          <p class="ks-contacts__frame-text">КОСОПЛЕЧЕВ АЛЕКСЕЙ ВЛАДИМИРОВИЧ —</p>
+          <p class="ks-contacts__frame-text">МЕНЕДЖЕР & ОРГАНИЗАТОР</p>
+          <h4 class="ks-contacts__frame-title">Связаться со мной</h4>
+          <svg
+            class="ks-contacts__frame-svg"
+            width="112"
+            height="112"
+            viewBox="0 0 112 112"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M35 21L35 28L79.065 28L21 86.065L25.935 91L84 32.935L84 77L91 77L91 21L35 21Z" fill="black" />
+          </svg>
+        </button>
+      </div>
+      <div class="ks-contacts__bubble">
+        <img
+          class="ks-contacts__bubble-img"
+          src="@/assets/img/graphics/bubble.png"
+          alt="Лекала волн"
+          draggable="false"
+        />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {}
 </script>
 
-<style></style>
+<style>
+/* СТИЛИ ОБЩЕЙ РАЗМЕТКИ БЛОКОВ */
+.ks-contacts {
+  padding: 64px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ks-contacts__wrap {
+  z-index: 1;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.ks-contacts__waves {
+  position: absolute;
+  z-index: 2;
+  height: fit-content;
+  width: fit-content;
+  left: -64px;
+  bottom: 64px;
+}
+.ks-contacts__bubble {
+  position: absolute;
+  z-index: 2;
+  height: fit-content;
+  width: fit-content;
+  right: -112px;
+  top: 8px;
+  transform: rotate(-45deg);
+}
+.ks-contacts__frame {
+  z-index: 3;
+  position: relative;
+  background-color: unset;
+}
+/* СТИЛИ ДЛЯ КНОПКИ */
+.ks-contacts__frame-btn {
+  border-radius: 100%;
+  width: 536px;
+  height: 536px;
+  border: 2px dashed #000;
+  padding: 0 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.ks-contacts__frame-text {
+  font-size: 2rem;
+  font-family: var(--montserrat);
+  font-weight: var(--montserrat-extra-regular);
+  color: var(--color-secondary);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.ks-contacts__frame-title {
+  font-size: 7rem;
+  text-align: left;
+  margin: 2rem 0;
+}
+</style>

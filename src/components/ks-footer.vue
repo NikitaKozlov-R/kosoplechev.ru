@@ -56,6 +56,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 64px;
 }
 .ks-footer__rights {
   width: 480px;
