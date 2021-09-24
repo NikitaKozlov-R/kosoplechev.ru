@@ -22,6 +22,7 @@ import SkillsAndTools from '@/components/skills-and-tools.vue'
 import FavoriteActivities from '@/components/favorite-activities.vue'
 import KsContacts from '@/components/ks-contacts.vue'
 import KsFooter from '@/components/ks-footer.vue'
+import AOS from 'aos'
 
 export default {
   name: 'App',
@@ -35,6 +36,9 @@ export default {
     FavoriteActivities,
     KsContacts,
     KsFooter,
+  },
+  created() {
+    AOS.init()
   },
 }
 </script>

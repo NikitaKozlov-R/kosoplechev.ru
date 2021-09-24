@@ -51,7 +51,7 @@ export default {
   width: fit-content;
   height: fit-content;
   left: -72px;
-  top: 136px;
+  top: 112px;
   background: unset;
 }
 .ks-bio__quotation-mark-text {
