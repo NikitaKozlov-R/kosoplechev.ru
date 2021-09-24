@@ -30,7 +30,9 @@
         />
       </div>
     </div>
-    <ks-contacts-modal v-if="modalVisibility" @modal-handler="modalVisibility = false" />
+    <transition name="slide-fade">
+      <ks-contacts-modal v-if="modalVisibility" @modal-handler="modalVisibility = false" />
+    </transition>
   </div>
 </template>
 
@@ -50,6 +52,21 @@ export default {
 </script>
 
 <style>
+/* СТИЛИ АНИМАЦИИ */
+.slide-fade-enter-active {
+  transition: all 0.6s ease-out;
+}
+.slide-fade-leave-active {
+  transition: all 0.6s ease-out;
+}
+.slide-fade-enter-from {
+  transform: scale(0.9);
+  opacity: 0;
+}
+.slide-fade-leave-to {
+  transform: scale(1.1);
+  opacity: 0;
+}
 /* СТИЛИ ОБЩЕЙ РАЗМЕТКИ БЛОКОВ */
 .ks-contacts {
   padding: 64px 0;

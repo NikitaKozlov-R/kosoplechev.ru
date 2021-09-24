@@ -41,9 +41,10 @@ export default {
 
 <style>
 .wrapper {
-  padding: 0 8rem;
+  padding: 0 112px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 </style>

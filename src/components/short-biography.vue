@@ -51,7 +51,7 @@ export default {
   width: fit-content;
   height: fit-content;
   left: -72px;
-  top: -24px;
+  top: 136px;
   background: unset;
 }
 .ks-bio__quotation-mark-text {
@@ -65,6 +65,8 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  justify-content: center;
 }
 .ks-bio__quote-text {
   font-size: 3rem;
