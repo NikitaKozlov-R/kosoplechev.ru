@@ -123,7 +123,7 @@ export default {
   z-index: 1;
 }
 .ks-welcome__frame--background {
-  height: 90rem;
+  height: 720px;
   overflow: hidden;
   border-radius: 45rem;
   border: 3rem solid var(--general-background);
@@ -133,7 +133,8 @@ export default {
   z-index: 3;
 }
 .ks-welcome__frame--img {
-  height: 124rem;
+  height: 920px;
+  margin-top: 32px;
   background: unset;
   position: relative;
   user-select: none;

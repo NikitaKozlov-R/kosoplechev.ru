@@ -136,7 +136,7 @@ export default {
   display: inline-block;
   overflow: hidden;
   background: linear-gradient(to right, var(--color-primary), var(--color-primary) 50%, #000 50%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
   background-position: 100%;

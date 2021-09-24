@@ -1,7 +1,7 @@
 <template>
   <div class="ks-bio__frame">
     <div class="ks-bio__background">
-      <img class="ks-bio-image" src="@/assets/img/main-2.png" alt="Алексей Владимирович Косоплечев" />
+      <img class="ks-bio-image" src="@/assets/img/main-2.png" alt="Алексей Владимирович Косоплечев" draggable="false" />
     </div>
   </div>
 </template>
@@ -27,10 +27,11 @@ export default {}
   border-radius: 250px;
   overflow: hidden;
   padding-top: 32px;
+  height: 712px;
   width: 100%;
 }
 .ks-bio-image {
-  width: 260px;
   background: unset;
+  user-select: none;
 }
 </style>
