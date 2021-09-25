@@ -23,7 +23,13 @@
     </div>
     <div class="ks-welcome__photo" data-aos="fade-up" data-aos-duration="3000">
       <div class="ks-welcome__frame">
-        <div class="ks-welcome__waves" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div
+          class="ks-welcome__waves"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="2000"
+        >
           <img
             class="ks-welcome__waves--img"
             src="@/assets/img/graphics/waves.png"

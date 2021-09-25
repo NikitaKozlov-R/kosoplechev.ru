@@ -101,8 +101,8 @@ export default {
   z-index: 2;
   height: fit-content;
   width: fit-content;
-  left: -64px;
-  bottom: 64px;
+  left: 0px;
+  bottom: 24%;
 }
 .ks-contacts__bubble {
   position: absolute;
