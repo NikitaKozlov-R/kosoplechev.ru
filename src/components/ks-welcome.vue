@@ -1,6 +1,6 @@
 <template>
   <div class="ks-welcome">
-    <div class="ks-welcome__text">
+    <div class="ks-welcome__text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <ks-welcome-text-item title="ЖИЗНЕННАЯ ПОЗИЦИЯ">
         <p class="ks-welcome__text-description">
           Если бы мне дали абсолютную власть,
@@ -21,9 +21,9 @@
         <p class="ks-welcome__text-description">Директор Колледжа РГСУ</p>
       </ks-welcome-text-item>
     </div>
-    <div class="ks-welcome__photo">
+    <div class="ks-welcome__photo" data-aos="fade-up" data-aos-duration="3000">
       <div class="ks-welcome__frame">
-        <div class="ks-welcome__waves">
+        <div class="ks-welcome__waves" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <img
             class="ks-welcome__waves--img"
             src="@/assets/img/graphics/waves.png"
@@ -49,7 +49,7 @@
         </div>
       </div>
     </div>
-    <div class="ks-welcome__numbers">
+    <div class="ks-welcome__numbers" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <ks-welcome-numbers-item title="ЛЕТ ОПЫТА">
         <p class="ks-welcome__text-number">>15</p>
       </ks-welcome-numbers-item>

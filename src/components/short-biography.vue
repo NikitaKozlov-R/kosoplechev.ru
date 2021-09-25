@@ -3,7 +3,7 @@
   <div class="ks-small-block">
     <ks-short-biography-text />
   </div>
-  <div class="ks-small-block">
+  <div class="ks-small-block" data-aos="fade-up" data-aos-duration="3000">
     <div class="bio-column">
       <div class="ks-bio__quotation-mark">
         <p class="ks-bio__quotation-mark-text">“</p>

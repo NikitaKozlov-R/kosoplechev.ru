@@ -1,7 +1,7 @@
 <template>
   <ks-block-title title="Образование и опыт" />
   <div class="ks-experience">
-    <div class="ks-experience__col">
+    <div class="ks-experience__col" data-aos="fade-up-right" data-aos-duration="2000">
       <p class="ks-experience__col-timeline">2005 - 2010</p>
       <div class="ks-experience__col-item">
         <h4 class="ks-experience__col-header">
@@ -14,7 +14,7 @@
         <p class="ks-experience__col-position">Начальник информационно-аналитического отдела</p>
       </div>
     </div>
-    <div class="ks-experience__col">
+    <div class="ks-experience__col" data-aos="fade-up" data-aos-duration="2000">
       <p class="ks-experience__col-timeline">2005 - 2016</p>
       <div class="ks-experience__col-item">
         <h4 class="ks-experience__col-header">Российский государственный социальный университет</h4>
@@ -28,7 +28,7 @@
         </p>
       </div>
     </div>
-    <div class="ks-experience__col">
+    <div class="ks-experience__col" data-aos="fade-up-left" data-aos-duration="2000">
       <p class="ks-experience__col-timeline">2016 - ПО НАСТОЯЩЕЕ ВРЕМЯ</p>
       <div class="ks-experience__col-item">
         <h4 class="ks-experience__col-header">Российский государственный социальный университет</h4>

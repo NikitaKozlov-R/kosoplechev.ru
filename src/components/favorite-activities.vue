@@ -1,6 +1,6 @@
 <template>
   <ks-block-title title="Любимые занятия" />
-  <div class="ks-hobbie">
+  <div class="ks-hobbie" data-aos="fade-up" data-aos-duration="2000">
     <div class="ks-hobbie__container">
       <div class="ks-hobbie__icons">
         <ks-giraffe />

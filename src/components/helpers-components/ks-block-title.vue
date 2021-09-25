@@ -1,5 +1,5 @@
 <template>
-  <div class="ks-block__title">
+  <div class="ks-block__title" data-aos="zoom-in" data-aos-duration="1000">
     <h1 class="ks-block__title-text">{{ title }}</h1>
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <ks-block-title title="Навыки и умения" />
-  <div class="ks-skills">
+  <div class="ks-skills" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
     <div class="ks-small-block">
       <div class="bio-column">
         <h4 class="ks-skills__header">МЕНЕДЖМЕНТ</h4>

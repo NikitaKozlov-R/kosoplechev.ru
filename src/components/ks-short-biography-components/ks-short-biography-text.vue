@@ -1,5 +1,11 @@
 <template>
-  <div class="bio-column">
+  <div
+    class="bio-column"
+    data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="1000"
+  >
     <div class="ks-bio__chapter">
       <p class="ks-bio__text">
         Я знал кем стану ещё в школе. Благодаря урокам профориентации выбор специальности при поступлении в университет
@@ -14,7 +20,13 @@
       </p>
     </div>
   </div>
-  <div class="bio-column">
+  <div
+    class="bio-column"
+    data-aos="fade-left"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="1000"
+  >
     <div class="ks-bio__chapter">
       <p class="ks-bio__text">
         Преддипломную практику я проходил в ВЗАО "АСЭН" — компания проводившая комплекс работ по строительству

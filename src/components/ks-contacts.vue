@@ -1,7 +1,13 @@
 <template>
-  <div class="ks-contacts">
+  <div class="ks-contacts" data-aos="zoom-in" data-aos-duration="2000">
     <div class="ks-contacts__wrap">
-      <div class="ks-contacts__waves">
+      <div
+        class="ks-contacts__waves"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1000"
+      >
         <img class="ks-contacts__waves-img" src="@/assets/img/graphics/waves.png" alt="Лекала волн" draggable="false" />
       </div>
       <div class="ks-contacts__frame">
@@ -21,7 +27,13 @@
           </svg>
         </button>
       </div>
-      <div class="ks-contacts__bubble">
+      <div
+        class="ks-contacts__bubble"
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1000"
+      >
         <img
           class="ks-contacts__bubble-img"
           src="@/assets/img/graphics/bubble.png"

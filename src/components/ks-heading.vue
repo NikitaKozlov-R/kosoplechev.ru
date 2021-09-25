@@ -16,11 +16,12 @@ export default {}
 <style>
 .ks-heading {
   width: 100%;
-  padding: 16rem 0;
+  padding-bottom: 128px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: calc(100vh - 216px);
 }
 .ks-heading__name {
   font-size: 7rem;
