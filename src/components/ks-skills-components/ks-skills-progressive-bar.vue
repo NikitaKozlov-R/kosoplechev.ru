@@ -76,4 +76,9 @@ export default {
   border: none;
   outline: none;
 }
+@media screen and (max-width: 800px) {
+  .ks-skills__item-bar {
+    width: 112px;
+  }
+}
 </style>

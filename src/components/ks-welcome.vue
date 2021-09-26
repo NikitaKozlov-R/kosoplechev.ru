@@ -21,7 +21,7 @@
         <p class="ks-welcome__text-description">Директор Колледжа РГСУ</p>
       </ks-welcome-text-item>
     </div>
-    <div class="ks-welcome__photo" data-aos="fade-up" data-aos-duration="3000">
+    <div class="ks-welcome__photo" data-aos="fade-up" data-aos-duration="2000">
       <div class="ks-welcome__frame">
         <div
           class="ks-welcome__waves"
@@ -173,5 +173,24 @@ export default {
 .ks-welcome__text-number {
   font-size: 9rem;
   margin-top: 4rem;
+}
+@media screen and (max-width: 800px) {
+  .ks-welcome {
+    flex-direction: column;
+  }
+  .ks-welcome__text {
+    width: 90%;
+    margin-left: 32px;
+  }
+  .ks-welcome__frame {
+    width: 100%;
+  }
+  .ks-welcome__frame--background {
+    height: 680px;
+  }
+  .ks-welcome__numbers {
+    width: 90%;
+    margin-left: 32px;
+  }
 }
 </style>

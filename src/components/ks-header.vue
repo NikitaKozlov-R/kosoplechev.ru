@@ -117,4 +117,20 @@ export default {
 .ks-socials__icon {
   margin: 0 0 0 3rem;
 }
+@media screen and (max-width: 800px) {
+  .ks-header {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .ks-menu {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .ks-menu__item {
+    margin: 0;
+  }
+  .ks-socials {
+    display: none;
+  }
+}
 </style>

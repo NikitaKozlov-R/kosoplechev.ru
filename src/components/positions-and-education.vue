@@ -92,4 +92,10 @@ export default {
   color: #000;
   line-height: 140%;
 }
+@media screen and (max-width: 800px) {
+  .ks-experience {
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>

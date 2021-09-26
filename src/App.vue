@@ -51,4 +51,9 @@ export default {
   align-items: center;
   overflow-x: hidden;
 }
+@media screen and (max-width: 800px) {
+  .wrapper {
+    padding: 0 8px;
+  }
+}
 </style>

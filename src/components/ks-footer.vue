@@ -3,7 +3,7 @@
     <div class="ks-footer__rights">
       <p class="ks-footer__rights-text">© {{ year }} Все права защищены</p>
       <p class="ks-footer__rights-text">
-        Develop by
+        Developed by
         <a class="ks-footer__rights-link" href="#">Nikita Kozlov</a>
       </p>
     </div>
@@ -94,5 +94,15 @@ export default {
 }
 .ks-footer__logo-link:hover {
   color: var(--color-primary);
+}
+@media screen and (max-width: 800px) {
+  .ks-footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .ks-footer__rights {
+    width: auto;
+  }
 }
 </style>

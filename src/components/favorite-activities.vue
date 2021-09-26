@@ -3,18 +3,26 @@
   <div class="ks-hobbie" data-aos="fade-up" data-aos-duration="2000">
     <div class="ks-hobbie__container">
       <div class="ks-hobbie__icons">
-        <ks-giraffe />
-        <ks-chess />
-        <ks-video-games />
-        <ks-valleyball />
-        <ks-guitar />
-      </div>
-      <div class="ks-hobbie__titles">
-        <p class="ks-hobbie__titles-item">Жирафы</p>
-        <p class="ks-hobbie__titles-item">Шахматы</p>
-        <p class="ks-hobbie__titles-item">Видео-игры</p>
-        <p class="ks-hobbie__titles-item">Волейбол</p>
-        <p class="ks-hobbie__titles-item">Гиатара</p>
+        <div class="ks-hobbie__icons-box">
+          <ks-giraffe />
+          <p class="ks-hobbie__title">Жирафы</p>
+        </div>
+        <div class="ks-hobbie__icons-box">
+          <ks-chess />
+          <p class="ks-hobbie__title">Шахматы</p>
+        </div>
+        <div class="ks-hobbie__icons-box">
+          <ks-video-games />
+          <p class="ks-hobbie__title">Видео-игры</p>
+        </div>
+        <div class="ks-hobbie__icons-box">
+          <ks-valleyball />
+          <p class="ks-hobbie__title">Волейбол</p>
+        </div>
+        <div class="ks-hobbie__icons-box">
+          <ks-guitar />
+          <p class="ks-hobbie__title">Гиатара</p>
+        </div>
       </div>
     </div>
   </div>
@@ -64,6 +72,10 @@ export default {
   justify-content: space-between;
   margin-bottom: 16px;
 }
+.ks-hobbie__icons-box {
+  display: flex;
+  flex-direction: column;
+}
 .ks-hobbie__icons-item {
   background-color: #eeebe9;
 }
@@ -75,17 +87,31 @@ export default {
 .ks-hobbie__icons-item svg:hover {
   transform: rotate(8deg) scale(1.4);
 }
-.ks-hobbie__titles {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #eeebe9;
-  width: 100%;
-  margin-top: 16px;
-}
-.ks-hobbie__titles-item {
+.ks-hobbie__title {
   background-color: #eeebe9;
   width: 128px;
   text-align: center;
+  padding-top: 32px;
+}
+@media screen and (max-width: 800px) {
+  .ks-hobbie {
+    background-color: unset;
+    padding: 40px 40px;
+  }
+  .ks-hobbie__container {
+    padding: 16px 32px;
+    border-radius: 8px;
+  }
+  .ks-hobbie__icons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ks-hobbie__title {
+    width: 100%;
+    padding-top: 16px;
+  }
+  .ks-hobbie__icons-box {
+    margin-top: 64px;
+  }
 }
 </style>

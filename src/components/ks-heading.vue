@@ -31,4 +31,9 @@ export default {}
   font-size: 2rem;
   margin: 2rem 0 0 0;
 }
+@media screen and (max-width: 800px) {
+  .ks-heading__name {
+    font-size: 5rem;
+  }
+}
 </style>

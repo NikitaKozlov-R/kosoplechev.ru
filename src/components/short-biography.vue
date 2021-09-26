@@ -80,4 +80,12 @@ export default {
 .ks-bio__quote-signature {
   width: 100%;
 }
+@media screen and (max-width: 800px) {
+  .ks-bio__quote {
+    align-items: flex-start;
+  }
+  .ks-bio__quote-driver {
+    width: 90%;
+  }
+}
 </style>

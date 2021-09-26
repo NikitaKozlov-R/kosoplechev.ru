@@ -109,13 +109,13 @@ export default {}
   color: #000;
   font-size: 3rem;
   margin-bottom: 16px;
-  text-decoration: none;
+  text-decoration: underline;
   transition: all 0.4s ease;
   position: relative;
 }
 .ks-contacts__modal-col-link::after {
   background: none repeat scroll 0 0 transparent;
-  bottom: -4px;
+  bottom: 2px;
   content: '';
   display: block;
   height: 2px;
@@ -137,5 +137,30 @@ export default {}
   font-size: 3rem;
   margin-bottom: 16px;
   background-color: unset;
+}
+@media screen and (max-width: 800px) {
+  .ks-contacts__modal {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .ks-contacts__modal-close {
+    right: 16px;
+    top: 8px;
+  }
+  .ks-contacts__modal-header {
+    font-size: 5rem;
+  }
+  .ks-contacts__modal-driver {
+    width: 90%;
+  }
+  .ks-contacts__modal-info {
+    flex-direction: column;
+  }
+  .ks-contacts__modal-col {
+    width: 90%;
+  }
 }
 </style>

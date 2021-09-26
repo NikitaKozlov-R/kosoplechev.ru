@@ -34,4 +34,9 @@ export default {}
   background: unset;
   user-select: none;
 }
+@media screen and (max-width: 800px) {
+  .ks-bio__frame {
+    width: 100%;
+  }
+}
 </style>

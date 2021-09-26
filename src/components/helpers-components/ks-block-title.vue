@@ -27,4 +27,9 @@ export default {
   font-size: 7rem;
   text-align: center;
 }
+@media screen and (max-width: 800px) {
+  .ks-block__title-text {
+    font-size: 5rem;
+  }
+}
 </style>

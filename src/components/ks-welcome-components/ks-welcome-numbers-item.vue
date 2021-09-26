@@ -29,4 +29,10 @@ export default {
   font-weight: var(--montserrat-extra-light);
   color: var(--color-secondary);
 }
+@media screen and (max-width: 800px) {
+  .ks-welcome__numbers-item {
+    align-items: flex-start;
+    margin-top: 24px;
+  }
+}
 </style>
