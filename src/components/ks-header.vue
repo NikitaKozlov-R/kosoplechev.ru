@@ -1,8 +1,12 @@
 <template>
   <header class="ks-header">
     <menu class="ks-menu">
-      <a href="/" class="ks-menu__item active">ГЛАВНАЯ</a>
-      <a href="#" class="ks-menu__item">БИОГРАФИЯ</a>
+      <router-link to="/">
+        <a class="ks-menu__item active">ГЛАВНАЯ</a>
+      </router-link>
+      <router-link to="/biography">
+        <a class="ks-menu__item">БИОГРАФИЯ</a>
+      </router-link>
       <a href="#" class="ks-menu__item">РЕЗЮМЕ</a>
     </menu>
     <div class="ks-logo">
