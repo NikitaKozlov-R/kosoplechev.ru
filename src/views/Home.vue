@@ -42,18 +42,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.wrapper {
-  padding: 0 112px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-x: hidden;
-}
-@media screen and (max-width: 800px) {
-  .wrapper {
-    padding: 0 8px;
-  }
-}
-</style>

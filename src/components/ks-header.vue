@@ -1,13 +1,9 @@
 <template>
   <header class="ks-header">
     <menu class="ks-menu">
-      <router-link to="/">
-        <a class="ks-menu__item active">ГЛАВНАЯ</a>
-      </router-link>
-      <router-link to="/biography">
-        <a class="ks-menu__item">БИОГРАФИЯ</a>
-      </router-link>
-      <a href="#" class="ks-menu__item">РЕЗЮМЕ</a>
+      <router-link class="ks-menu__item" to="/" active-class="active">ГЛАВНАЯ</router-link>
+      <router-link class="ks-menu__item" to="/biography" active-class="active">БИОГРАФИЯ</router-link>
+      <a class="ks-menu__item" href="https://google.com/" target="_blanc">РЕЗЮМЕ</a>
     </menu>
     <div class="ks-logo">
       <ks-logo />

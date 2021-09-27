@@ -1,7 +1,15 @@
 <template>
-  <span></span>
+  <div class="wrapper">
+    <ks-header />
+  </div>
 </template>
 
 <script>
-export default {}
+import KsHeader from '@/components/ks-header.vue'
+
+export default {
+  components: {
+    KsHeader,
+  },
+}
 </script>
