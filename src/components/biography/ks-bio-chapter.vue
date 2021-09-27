@@ -1,6 +1,12 @@
 <template>
   <div class="ks-bio__bblock">
-    <div class="ks-bio__bblock-left">
+    <div
+      class="ks-bio__bblock-left"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+      data-aos-duration="1000"
+    >
       <div class="ks-bio__bblock-title">
         <h4 class="ks-bio__bblock-title-text">{{ title }}</h4>
         <p class="ks-bio__bblock-title-time">{{ timeline }}</p>
@@ -61,7 +67,8 @@ export default {
   width: 70%;
   margin-top: -24px;
 }
-.ks-bio__bblock-text {
+.ks-bio__bblock-text,
+.ks-bio__bblock-text span {
   font-size: 2rem;
   margin-top: 24px;
   line-height: 160%;
