@@ -150,4 +150,9 @@ export default {
   padding: 0 160px;
   margin-bottom: 16rem;
 }
+@media screen and (max-width: 800px) {
+  .ks-bio__col {
+    padding: 0 8px;
+  }
+}
 </style>

@@ -38,4 +38,12 @@ export default {}
   margin-top: 32px;
   font-size: 2rem;
 }
+@media screen and (max-width: 800px) {
+  .ks-bio__heading-title {
+    font-size: 5rem;
+  }
+  .ks-bio__epigraph {
+    width: 80%;
+  }
+}
 </style>

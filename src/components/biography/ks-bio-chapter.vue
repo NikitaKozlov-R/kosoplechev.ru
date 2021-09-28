@@ -44,11 +44,22 @@ export default {
   gap: 4rem;
   width: 100%;
 }
+@media screen and (max-width: 800px) {
+  .ks-bio__bblock {
+    gap: 2rem;
+    flex-direction: column;
+  }
+}
 .ks-bio__bblock-left {
   width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  .ks-bio__bblock-left {
+    width: 100%;
+  }
 }
 .ks-bio__bblock-title {
   display: flex;
@@ -67,6 +78,11 @@ export default {
   width: 70%;
   margin-top: -24px;
 }
+@media screen and (max-width: 800px) {
+  .ks-bio__bblock-right {
+    width: 100%;
+  }
+}
 .ks-bio__bblock-text,
 .ks-bio__bblock-text span {
   font-size: 2rem;
@@ -77,6 +93,11 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (max-width: 800px) {
+  .ks-bio__bblock-vdriver {
+    display: none;
+  }
 }
 .ks-bio__bblock-rect {
   width: 24px;
