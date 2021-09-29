@@ -1,6 +1,6 @@
 # kosoplechev.ru
 
-Personal website-business card of the RSSU College director Alexei Vladimirovich Kosoplechev
+Personal website business card of the RSSU College director Alexei Vladimirovich Kosoplechev
 
 ## Project setup
 
