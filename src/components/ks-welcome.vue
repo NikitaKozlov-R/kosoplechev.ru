@@ -30,12 +30,7 @@
           data-aos-easing="ease-in-sine"
           data-aos-duration="2000"
         >
-          <img
-            class="ks-welcome__waves--img"
-            src="@/assets/img/graphics/waves.png"
-            alt="Лекала волн"
-            draggable="false"
-          />
+          <img class="ks-welcome__waves--img" src="@/assets/img/graphics/waves.png" alt="Лекала волн" draggable="false" />
         </div>
         <div class="ks-welcome__frame--background">
           <img
@@ -46,17 +41,12 @@
           />
         </div>
         <div class="ks-welcome__bubble">
-          <img
-            class="ks-welcome__bubble--img"
-            src="@/assets/img/graphics/bubble.png"
-            alt="Лекала волн"
-            draggable="false"
-          />
+          <img class="ks-welcome__bubble--img" src="@/assets/img/graphics/bubble.png" alt="Лекала волн" draggable="false" />
         </div>
       </div>
     </div>
     <div class="ks-welcome__numbers" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
-      <ks-welcome-numbers-item title="ЛЕТ ОПЫТА">
+      <ks-welcome-numbers-item title="ОПЫТ РАБОТЫ">
         <p class="ks-welcome__text-number">>15</p>
       </ks-welcome-numbers-item>
       <ks-welcome-numbers-item title="ПРОДУКТИВНОСТЬ">

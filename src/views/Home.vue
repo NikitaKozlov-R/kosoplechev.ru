@@ -3,8 +3,8 @@
     <ks-header />
     <ks-heading />
     <ks-welcome />
-    <short-biography />
     <positions-and-education />
+    <short-biography />
     <skills-and-tools />
     <favorite-activities />
     <ks-contacts />
