@@ -8,8 +8,8 @@
         href="https://hh.ru/applicant/resumes/view?resume=79272de3ff02ce4f680039ed1f686a58586151"
         target="_blanc"
       >
-        <link-icon />
         РЕЗЮМЕ
+        <link-icon />
       </a>
     </menu>
     <div class="ks-logo">

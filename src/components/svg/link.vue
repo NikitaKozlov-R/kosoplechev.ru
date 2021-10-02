@@ -19,6 +19,6 @@ export default {}
 .ks-menu__item--link {
   fill: currentColor;
   stroke: currentColor;
-  margin-right: 4px;
+  margin-left: 8px;
 }
 </style>
