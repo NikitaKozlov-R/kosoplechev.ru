@@ -9,13 +9,13 @@ const routes = [
   },
   {
     path: '/biography',
-    name: 'bioography',
+    name: 'Biography',
     component: () => import('@/views/Biography.vue'),
   },
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/kosoplechev.ru/'),
   routes,
 })
 
