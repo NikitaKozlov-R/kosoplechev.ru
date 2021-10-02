@@ -4,7 +4,7 @@
       <p class="ks-footer__rights-text">© {{ year }} Все права защищены</p>
       <p class="ks-footer__rights-text">
         Developed by
-        <a class="ks-footer__rights-link" href="#">Nikita Kozlov</a>
+        <a class="ks-footer__rights-link" href="https://github.com/NikitaKozlov-R" target="_blanc">Nikita Kozlov</a>
       </p>
     </div>
     <div class="ks-footer__logo">

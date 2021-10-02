@@ -3,7 +3,14 @@
     <menu class="ks-menu">
       <router-link class="ks-menu__item" to="/" active-class="active">ГЛАВНАЯ</router-link>
       <router-link class="ks-menu__item" to="/biography" active-class="active">БИОГРАФИЯ</router-link>
-      <a class="ks-menu__item" href="https://google.com/" target="_blanc">РЕЗЮМЕ</a>
+      <a
+        class="ks-menu__item pseudo"
+        href="https://hh.ru/applicant/resumes/view?resume=79272de3ff02ce4f680039ed1f686a58586151"
+        target="_blanc"
+      >
+        <link-icon />
+        РЕЗЮМЕ
+      </a>
     </menu>
     <div class="ks-logo">
       <ks-logo />
@@ -31,6 +38,7 @@ import TelegramIcon from '@/components/svg/telegram-icon.vue'
 import VkIcon from '@/components/svg/vk-icon.vue'
 import FacebookIcon from '@/components/svg/facebook-icon.vue'
 import WhatsappIcon from '@/components/svg/whatsapp-icon.vue'
+import LinkIcon from '@/components/svg/link.vue'
 
 export default {
   components: {
@@ -39,6 +47,7 @@ export default {
     VkIcon,
     FacebookIcon,
     WhatsappIcon,
+    LinkIcon,
   },
   data() {
     return {}
@@ -68,8 +77,8 @@ export default {
   margin: 0 8rem 0 0;
   transition: all 0.4s ease;
   position: relative;
-  display: inline-block;
   outline: none;
+  display: flex;
 }
 .ks-menu__item::after {
   content: '';
@@ -104,6 +113,9 @@ export default {
   background: var(--color-primary);
   border-radius: 50%;
   opacity: 1;
+}
+.ks-menu__item.pseudo::after {
+  opacity: 0;
 }
 .ks-menu__item:hover {
   color: var(--color-primary);
