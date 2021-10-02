@@ -13,10 +13,10 @@
     <div class="ks-contacts__modal-info">
       <div class="ks-contacts__modal-col">
         <p class="ks-contacts__modal-col-title">СОЦИАЛЬНЫЕ СЕТИ</p>
-        <a class="ks-contacts__modal-col-link" href="#">Telegram</a>
-        <a class="ks-contacts__modal-col-link" href="#">ВКонтакте</a>
-        <a class="ks-contacts__modal-col-link" href="#">Facebook</a>
-        <a class="ks-contacts__modal-col-link" href="#">WhatsApp</a>
+        <a class="ks-contacts__modal-col-link" href="https://t.me/kosoplechev" target="_blanc">Telegram</a>
+        <a class="ks-contacts__modal-col-link" href="https://vk.com/kosoplechev" target="_blanc">ВКонтакте</a>
+        <a class="ks-contacts__modal-col-link" href="https://ru-ru.facebook.com/kosoplechev" target="_blanc">Facebook</a>
+        <a class="ks-contacts__modal-col-link" href="https://wa.me/+79265874227" target="_blanc">WhatsApp</a>
       </div>
       <div class="ks-contacts__modal-col">
         <p class="ks-contacts__modal-col-title">СПОСОБЫ СВЯЗИ</p>

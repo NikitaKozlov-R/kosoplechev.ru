@@ -1,5 +1,5 @@
 <template>
-  <a href="#">
+  <a href="https://wa.me/+79265874227" target="_blanc">
     <svg class="ks-socials__icon--svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clip-path="url(#clip0)">
         <path
