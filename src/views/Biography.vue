@@ -114,7 +114,7 @@
           </span>
         </p>
       </ks-bio-chapter>
-      <ks-bio-photo img-url="block-4.jpg" alt="Актовый зал РГСУ" />
+      <ks-bio-photo img-url="main-bio-1-1.jpg" alt="Актовый зал РГСУ" />
     </div>
     <ks-footer />
   </div>
