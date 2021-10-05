@@ -35,7 +35,7 @@
         <div class="ks-welcome__frame--background">
           <img
             class="ks-welcome__frame--img"
-            src="@/assets/img/main-1-1.png"
+            src="@/assets/img/main-1.png"
             alt="Косоплечев Алексей Владимирович"
             draggable="false"
           />
@@ -119,8 +119,7 @@ export default {
   z-index: 1;
 }
 .ks-welcome__frame--background {
-  /* height: 720px; -- Размер для main-1 */
-  height: 688px;
+  height: 720px;
   overflow: hidden;
   border-radius: 45rem;
   border: 3rem solid var(--general-background);
@@ -130,10 +129,8 @@ export default {
   z-index: 3;
 }
 .ks-welcome__frame--img {
-  /* height: 920px;
-  margin-top: 32px; -- Размер для main-1 */
-  height: 584px;
-  margin-top: 64px;
+  height: 920px;
+  margin-top: 32px;
   background: unset;
   position: relative;
   user-select: none;
