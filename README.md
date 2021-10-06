@@ -1,5 +1,7 @@
 # kosoplechev.ru
 
+WORK COMPLETION TIME: ~2 WEEKS
+
 Personal website business card of the RSSU College director Alexei Vladimirovich Kosoplechev
 
 ## Project setup
