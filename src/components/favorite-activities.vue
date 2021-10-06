@@ -1,7 +1,7 @@
 <template>
   <ks-block-title title="Любимые занятия" />
   <div class="ks-hobbie" data-aos="fade-up" data-aos-duration="2000">
-    <transition name="slide-fade">
+    <transition name="slide-sides">
       <div v-if="giraffeVisibility" class="ks-hobbie__photo">
         <button class="ks-hobbie__photo-close" @click="hidePicture">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -13,7 +13,7 @@
         <img class="ks-hobbie__photo-img" src="@/assets/img/giraffe.jpg" alt="Жирафы" draggable="false" />
       </div>
     </transition>
-    <transition name="slide-fade">
+    <transition name="slide-sides">
       <div v-if="chessVisibility" class="ks-hobbie__photo">
         <button class="ks-hobbie__photo-close" @click="hidePicture">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@
         <img class="ks-hobbie__photo-img" src="@/assets/img/chess.jpg" alt="Шахматы" draggable="false" />
       </div>
     </transition>
-    <transition name="slide-fade">
+    <transition name="slide-sides">
       <div v-if="gamesVisibility" class="ks-hobbie__photo">
         <button class="ks-hobbie__photo-close" @click="hidePicture">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@
         <img class="ks-hobbie__photo-img" src="@/assets/img/video-games.jpg" alt="Видео-игры" draggable="false" />
       </div>
     </transition>
-    <transition name="slide-fade">
+    <transition name="slide-sides">
       <div v-if="valleyballVisibility" class="ks-hobbie__photo">
         <button class="ks-hobbie__photo-close" @click="hidePicture">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@
         <img class="ks-hobbie__photo-img" src="@/assets/img/valleyball.jpg" alt="Волейбол" draggable="false" />
       </div>
     </transition>
-    <transition name="slide-fade">
+    <transition name="slide-sides">
       <div v-if="guitarVisibility" class="ks-hobbie__photo">
         <button class="ks-hobbie__photo-close" @click="hidePicture">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -222,6 +222,21 @@ export default {
 }
 .ks-hobbie__photo-img {
   height: 72vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.slide-sides-enter-active {
+  transition: all 0.6s ease-out;
+}
+.slide-sides-leave-active {
+  transition: all 0.6s ease-out;
+}
+.slide-sides-enter-from {
+  transform: translate(-112px);
+  opacity: 0;
+}
+.slide-sides-leave-to {
+  transform: translate(112px);
+  opacity: 0;
 }
 @media screen and (max-width: 800px) {
   .ks-hobbie {
