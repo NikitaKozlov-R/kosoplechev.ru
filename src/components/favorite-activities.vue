@@ -116,6 +116,11 @@ export default {
   },
   methods: {
     showPicture(item) {
+      this.giraffeVisibility = false
+      this.chessVisibility = false
+      this.gamesVisibility = false
+      this.valleyballVisibility = false
+      this.guitarVisibility = false
       if (item == 'giraffe') {
         this.giraffeVisibility = true
       }
@@ -144,6 +149,22 @@ export default {
 </script>
 
 <style>
+/* СТИЛИ АНИМАЦИИ */
+.slide-sides-enter-active {
+  transition: all 0.6s ease-out;
+}
+.slide-sides-leave-active {
+  transition: all 0.6s ease-out;
+}
+.slide-sides-enter-from {
+  transform: translate(-112px);
+  opacity: 0;
+}
+.slide-sides-leave-to {
+  transform: translate(112px);
+  opacity: 0;
+}
+/* СТИЛИ ДЛЯ КОМПОНЕНТА */
 .ks-hobbie {
   width: 100%;
   padding: 40px 0;
@@ -224,25 +245,10 @@ export default {
   height: 72vh;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-.slide-sides-enter-active {
-  transition: all 0.6s ease-out;
-}
-.slide-sides-leave-active {
-  transition: all 0.6s ease-out;
-}
-.slide-sides-enter-from {
-  transform: translate(-112px);
-  opacity: 0;
-}
-.slide-sides-leave-to {
-  transform: translate(112px);
-  opacity: 0;
-}
 @media screen and (max-width: 800px) {
   .ks-hobbie {
     background-color: unset;
     padding: 40px 40px;
-    display: block;
   }
   .ks-hobbie__container {
     padding: 16px 32px;
@@ -258,6 +264,14 @@ export default {
   }
   .ks-hobbie__icons-box {
     margin-top: 64px;
+  }
+  .ks-hobbie__photo {
+    height: auto;
+    display: none;
+  }
+  .ks-hobbie__photo-img {
+    height: auto;
+    width: 90vw;
   }
 }
 </style>
