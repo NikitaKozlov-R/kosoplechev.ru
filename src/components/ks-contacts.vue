@@ -34,12 +34,7 @@
         data-aos-easing="ease-in-sine"
         data-aos-duration="1000"
       >
-        <img
-          class="ks-contacts__bubble-img"
-          src="@/assets/img/graphics/bubble.png"
-          alt="Лекала волн"
-          draggable="false"
-        />
+        <img class="ks-contacts__bubble-img" src="@/assets/img/graphics/bubble.png" alt="Лекала волн" draggable="false" />
       </div>
     </div>
     <transition name="slide-fade">
