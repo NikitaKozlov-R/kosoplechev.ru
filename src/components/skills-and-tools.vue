@@ -5,19 +5,19 @@
       <div class="bio-column">
         <h4 class="ks-skills__header">МЕНЕДЖМЕНТ</h4>
         <div class="ks-skills__container">
-          <ks-skills-progressive-bar title="Управление персоналом" percent="82" />
-          <ks-skills-progressive-bar title="Работа с кадрами" percent="73" />
-          <ks-skills-progressive-bar title="Публичные выступления" percent="96" />
-          <ks-skills-progressive-bar title="Тайм-менеджмент" percent="57" />
+          <ks-skills-progressive-bar title="Административное управление" percent="76" />
+          <ks-skills-progressive-bar title="Публичные выступления" percent="94" />
+          <ks-skills-progressive-bar title="Управление командой" percent="83" />
+          <ks-skills-progressive-bar title="Управленческие навыки" percent="87" />
         </div>
       </div>
       <div class="bio-column">
         <h4 class="ks-skills__header">ИНСТРУМЕНТЫ</h4>
         <div class="ks-skills__container">
-          <ks-skills-progressive-bar title="Microsoft Outlook" percent="40" />
-          <ks-skills-progressive-bar title="Английский язык С1" percent="63" />
-          <ks-skills-progressive-bar title="Microsoft PowerPoint" percent="78" />
-          <ks-skills-progressive-bar title="Trello, Slack" percent="27" />
+          <ks-skills-progressive-bar title="Ведение переговоров" percent="98" />
+          <ks-skills-progressive-bar title="Организация мероприятий" percent="88" />
+          <ks-skills-progressive-bar title="Социологические исследования" percent="56" />
+          <ks-skills-progressive-bar title="Обучение и развитие" percent="92" />
         </div>
       </div>
     </div>

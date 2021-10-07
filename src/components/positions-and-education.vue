@@ -20,26 +20,27 @@
     <div class="ks-experience__col" data-aos="fade-up-left" data-aos-duration="2000">
       <p class="ks-experience__col-timeline">2016 - ПО НАСТОЯЩЕЕ ВРЕМЯ</p>
       <div class="ks-experience__col-item">
-        <h4 class="ks-experience__col-header">Региональный эксперт Союза «Молодые профессионалы (Ворлдскиллс Россия)»</h4>
-        <p class="ks-experience__col-position">Союз «Молодые профессионалы (Ворлдскиллс Россия)», Администрирование отеля</p>
+        <h4 class="ks-experience__col-header">Российский государственный социальный университет</h4>
         <p class="ks-experience__col-position">Директор Колледжа РГСУ</p>
-        <p class="ks-experience__col-position">Руководитель подразделения, преподаватель</p>
+        <p class="ks-experience__col-position">Директор Чемпионата РГСУ по стандартам Ворлдскиллс Россия</p>
+        <p class="ks-experience__col-position">
+          Региональный эксперт, союз «Молодые профессионалы (Ворлдскиллс Россия)», компетенция «Администрирование отеля»
+        </p>
+        <p class="ks-experience__col-position">Преподаватель</p>
       </div>
     </div>
   </div>
   <div class="ks-experience">
     <div class="ks-experience__col" data-aos="fade-up-right" data-aos-duration="2000">
-      <p class="ks-experience__col-timeline">ОБРАЗОВАНИЕ: 2005 - 2010</p>
       <div class="ks-experience__col-item">
         <h4 class="ks-experience__col-header">Московский государственный университет экономики, статистики и информатики</h4>
-        <p class="ks-experience__col-position">Управление персоналом/Развитие человеческих ресурсов</p>
+        <p class="ks-experience__col-position">Управление персоналом/Развитие человеческих ресурсов (2005)</p>
       </div>
     </div>
     <div class="ks-experience__col" data-aos="fade-up" data-aos-duration="2000">
-      <p class="ks-experience__col-timeline">2010 - 2016</p>
       <div class="ks-experience__col-item">
         <h4 class="ks-experience__col-header">Российский государственный социальный университет</h4>
-        <p class="ks-experience__col-position">Социального управления и социологии, Туризм/Магистр</p>
+        <p class="ks-experience__col-position">Социального управления и социологии, Туризм/Магистр (2014)</p>
         <p class="ks-experience__col-position">
           Лауреат общегородского конкурса «Молодой преподаватель ВУЗа» Московской городской организации Профсоюза работников
           народного образования и науки РФ в номинации «Лучшее эссе» в 2016 г.
@@ -47,13 +48,9 @@
       </div>
     </div>
     <div class="ks-experience__col" data-aos="fade-up-left" data-aos-duration="2000">
-      <p class="ks-experience__col-timeline">2016 - ПО НАСТОЯЩЕЕ ВРЕМЯ</p>
       <div class="ks-experience__col-item">
-        <h4 class="ks-experience__col-header">WorldSkills Russia</h4>
-        <p class="ks-experience__col-position">
-          Региональный эксперт союза WorldSkills по компетенции "Администрирование отеля", эксперт финала I межвузовского
-          чемпионата, главный эксперт отборочного этапа РГСУ
-        </p>
+        <h4 class="ks-experience__col-header">Российский университет кооперации</h4>
+        <p class="ks-experience__col-position">Аспирант 08.00.05 Экономика и управление народным хозяйством (с 2021)</p>
       </div>
     </div>
   </div>

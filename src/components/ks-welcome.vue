@@ -47,13 +47,13 @@
     </div>
     <div class="ks-welcome__numbers" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <ks-welcome-numbers-item title="ОПЫТ РАБОТЫ">
-        <p class="ks-welcome__text-number">>15</p>
+        <p class="ks-welcome__text-number">>15 лет</p>
       </ks-welcome-numbers-item>
       <ks-welcome-numbers-item title="ПРОДУКТИВНОСТЬ">
         <p class="ks-welcome__text-number">100%</p>
       </ks-welcome-numbers-item>
-      <ks-welcome-numbers-item title="НАВЫКИ">
-        <p class="ks-welcome__text-number">30+</p>
+      <ks-welcome-numbers-item title="АНГЛИЙСКИЙ">
+        <p class="ks-welcome__text-number">B2</p>
       </ks-welcome-numbers-item>
     </div>
   </div>
