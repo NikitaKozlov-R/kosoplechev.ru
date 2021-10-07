@@ -96,6 +96,14 @@ import KsVideoGames from '@/components/svg/video-games.vue'
 import KsValleyball from '@/components/svg/volleyball.vue'
 import KsGuitar from '@/components/svg/guitar.vue'
 
+const dataMapper = {
+  giraffe: 'giraffeVisibility',
+  chess: 'chessVisibility',
+  games: 'gamesVisibility',
+  valleyball: 'valleyballVisibility',
+  guitar: 'guitarVisibility',
+}
+
 export default {
   components: {
     KsBlockTitle,
@@ -105,44 +113,22 @@ export default {
     KsValleyball,
     KsGuitar,
   },
-  data() {
-    return {
-      giraffeVisibility: false,
-      chessVisibility: false,
-      gamesVisibility: false,
-      valleyballVisibility: false,
-      guitarVisibility: false,
-    }
-  },
+  data: () => ({
+    giraffeVisibility: false,
+    chessVisibility: false,
+    gamesVisibility: false,
+    valleyballVisibility: false,
+    guitarVisibility: false,
+  }),
   methods: {
     showPicture(item) {
-      this.giraffeVisibility = false
-      this.chessVisibility = false
-      this.gamesVisibility = false
-      this.valleyballVisibility = false
-      this.guitarVisibility = false
-      if (item == 'giraffe') {
-        this.giraffeVisibility = true
-      }
-      if (item == 'chess') {
-        this.chessVisibility = true
-      }
-      if (item == 'games') {
-        this.gamesVisibility = true
-      }
-      if (item == 'valleyball') {
-        this.valleyballVisibility = true
-      }
-      if (item == 'guitar') {
-        this.guitarVisibility = true
-      }
+      this.hidePicture()
+      this[dataMapper[item]] = true
     },
     hidePicture() {
-      this.giraffeVisibility = false
-      this.chessVisibility = false
-      this.gamesVisibility = false
-      this.valleyballVisibility = false
-      this.guitarVisibility = false
+      Object.entries(dataMapper).forEach(([key, value]) => {
+        this[value] = false
+      })
     },
   },
 }
